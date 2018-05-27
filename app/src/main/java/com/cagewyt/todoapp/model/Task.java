@@ -5,6 +5,9 @@ public class Task {
 
     private String time;
 
+    public Task() {
+    }
+
     public Task(String name, String time) {
         this.name = name;
         this.time = time;
